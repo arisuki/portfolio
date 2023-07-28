@@ -16,9 +16,9 @@ export default function Hero() {
         Hello! I'm a full-stack software developer specializing in building and designing apps with a creative and functional sensibility.
         
       </p>
-      <button>
-        Let's talk!
-      </button>
+      <a className="ghost-button">
+    view works
+      </a>
       </div>
       </div>
       </div>

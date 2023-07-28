@@ -12,7 +12,7 @@
     background-size: cover;
     image-rendering: pixelated;
     text-align: center;
-    min-height: 92vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,20 +31,54 @@
     margin: 15px;
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
+    text-align:right;
 }
 
 .hero-h3{
     color: #f2b7d3;
     margin: 15px;
     font-family: 'Outfit', sans-serif;
+    line-height:0.75;
+    text-align:right;
   }
 
 .hero-description{
     margin-top: 10%;
     font-family: 'Caveat', cursive;
     font-size: 24px;
+    text-align:justify;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgba(168, 151, 151, 0.25);
+
 
   }
+
+.ghost-button{
+        background-color:rgb(10, 59, 141, 0.5);
+        display: inline-block; width: 200px; 
+        padding: 10px; 
+        color: #fff; border: 2px solid #fff; 
+        text-align: center; 
+        outline: none; 
+        text-decoration: none;
+        border-radius: 5px;
+        content: "view works";
+        cursor: pointer;
+        transition: all ease 0.3s;
+
+        &:hover{
+            text-indent: -5px;
+         background-color:rgba(255, 255, 255, 0.25);
+         transition: all ease 0.3s;
+
+           }
+        &:hover:after{
+            transition: all ease 0.3s;
+
+         content: " 🔽";
+           }
+    }
 
   @media screen and (max-width: 600px) {
     .hero-description{
@@ -56,17 +90,43 @@
     min-height: 100vh;
     color: black;
     background-color: #f2b7d3;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
   }
+
 
   .projects-h1{
 margin: 0px;
-padding-top: 10%;
+
 font-family: 'Outfit', sans-serif;
-color:  #0a3b8d;
+color: #10316b;
 font-weight: bold;
 
   }
 
-  .projects-text{
-padding: 20px;
-  }
+
+.projects-detail{
+    flex-direction: column;
+  background-color: #10316b;
+  color: white;
+  min-height: 65vh;
+  padding: 30px;
+  padding-top: 10px;
+  text-align:justify;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: inset 0 0 0 10px #10316b, inset 0 0 0 12px white;
+  word-break: break-word;
+
+}
+.projects-detail>h3{
+    padding: 0px;
+    font-size: 32px;
+}
+
+.projects-link{
+    color:#8cf3c4;
+    margin: auto;
+    text-align: center;
+    border: solid 1px red;
+}
