@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Ysabeau+SC:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+  
+.hero {
+    background-color: #10316b;
+    background-image: url(../../../public/images/portfolio_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    image-rendering: pixelated;
+    text-align: center;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .hero>.container{
+    max-height: 50%;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+ .hero-h1{
+    color: white;
+    margin: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+
+.hero-h3{
+    color: #f2b7d3;
+    margin: 15px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+.hero-description{
+    margin-top: 10%;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero-description{
+        margin-top: 5%
+      }
+  }
+
+  .projects{
+    min-height: 100vh;
+    color: black;
+    background-color: #f2b7d3;
+  }
+
+  .projects-h1{
+margin: 0px;
+padding-top: 10%;
+font-family: 'Outfit', sans-serif;
+color:  #0a3b8d;
+font-weight: bold;
+
+  }
+
+  .projects-text{
+padding: 20px;
+  }
