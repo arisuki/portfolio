@@ -8,8 +8,8 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <h1 className="projects-h1">Projects</h1>
-      <p className="projects-text"> You can find some of my favourite curent and former projects here</p>
+      <h1 className="projects-h1">PROJECTS</h1>
+      {/* <p className="projects-text"> You can find some of my favourite curent and former projects here</p> */}
 
       <div class="row">
 
