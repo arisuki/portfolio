@@ -1,155 +1,185 @@
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Ysabeau+SC:wght@800&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Ysabeau+SC:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-body{
-    background-color: #a98ce3;
+body {
+  background-color: #a98ce3;
 }
 
 .hero {
-    background-color: #10316b;
-    background-image: url(../../../public/images/portfolio_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    image-rendering: pixelated;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-
-  .hero>.container{
-    max-height: 50%;
-    justify-content: center;
-    padding-top: 5%;
-  }
-
- .hero-h1{
-    color: white;
-    margin: 15px;
-    font-family: 'Outfit', sans-serif;
-    font-weight: bold;
-    text-align:right;
-}
-
-.hero-h3{
-    color: #f2b7d3;
-    margin: 15px;
-    font-family: 'Outfit', sans-serif;
-    line-height:0.75;
-    text-align:right;
-  }
-
-.hero-description{
-    margin-top: 10%;
-    font-family: 'Caveat', cursive;
-    font-size: 24px;
-    text-align:justify;
-    border-radius: 10px;
-    padding: 10px;
-    background-color:rgba(168, 151, 151, 0.25);
-
-
-  }
-
-.ghost-button{
-        background-color:rgb(10, 59, 141, 0.5);
-        display: inline-block; width: 200px; 
-        padding: 10px; 
-        color: #fff; border: 2px solid #fff; 
-        text-align: center; 
-        outline: none; 
-        text-decoration: none;
-        border-radius: 5px;
-        content: "view works";
-        cursor: pointer;
-        transition: all ease 0.3s;
-
-        &:hover{
-            text-indent: -5px;
-         background-color:rgba(255, 255, 255, 0.25);
-         transition: all ease 0.3s;
-
-           }
-        &:hover:after{
-            transition: all ease 0.3s;
-
-         content: " 🔽";
-           }
-    }
-
-  @media screen and (max-width: 600px) {
-    .hero-description{
-        margin-top: 5%
-      }
-  }
-
-  .projects{
-    min-height: 100vh;
-    color: black;
-    background-color: #f2b7d3;
-    background-image: url(../../../public/images/perfect-lav.png);
-    background-size: cover;
-    flex-direction: row;
-    font-size: calc(10px + 2vmin);
-    
-  }
-
-
-  .projects-h1{
-margin: 0px;
-padding: 5%;
-
-font-family: 'Outfit', sans-serif;
-color: #10316b;
-font-weight: bold;
-
-  }
-
-
-.projects-detail{
-    flex-direction: column;
   background-color: #10316b;
-  /* background-image: url(../../../public/images/grid_bg.png); */
-  background-repeat: repeat;
-  background-size: 25%;
+  background-image: url(../../../public/images/portfolio_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   image-rendering: pixelated;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  min-height: 65vh;
-  padding: 30px;
-  padding-top: 10px;
-  text-align:justify;
+}
+
+.hero > .container {
+  max-height: 50%;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.hero-h1 {
+  color: white;
+  margin: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.hero-h3 {
+  color: #f2b7d3;
+  margin: 15px;
+  font-family: "Outfit", sans-serif;
+  line-height: 0.75;
+  text-align: right;
+}
+
+.hero-description {
+  margin-top: 10%;
+  font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  text-align: left;
   border-radius: 10px;
-  font-size: 16px;
-  box-shadow: inset 0 0 0 10px #10316b, inset 0 0 0 12px white;
+  padding: 10px;
+  background-color: rgba(168, 151, 151, 0.25);
+}
+
+.ghost-button {
+  background-color: rgb(10, 59, 141, 0.5);
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  content: "view";
+  cursor: pointer;
+  transition: all ease 0.3s;
+
+  &:hover {
+    text-indent: -10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: all ease 0.5s;
+  }
+  &:hover:after {
+    content: " 🔽";
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .hero-description {
+    margin-top: 5%;
+  }
+}
+
+.projects {
+  min-height: 100vh;
+  color: black;
+  background-color: #f2b7d3;
+  background-image: url(../../../public/images/bg_portfolio_grid.png);
+  background-size: cover;
+  background-position: top;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+}
+
+.projects-h1 {
+  margin: 0px;
+  font-family: "Outfit", sans-serif;
+  color: #10316b;
+  font-weight: bold;
+}
+
+.projects-h1-p{
+    background-color: rgba(16, 49, 107, 0.75);
+    color: #f2b7d3;
+    border-radius: 15px;
+
+
+}
+
+.projects-detail {
+  flex-direction: column;
+  background-color: transparent;
+  background-color: #10316b;
+  border-radius: 15px;
+  /* border-image: url(../../../public/images/borderxl.png) fill
+  48 16 16 16/  48px 16px 16px 16px;
+  border-style: solid;
+  border-top: 48px solid;
+  border-left: 16px solid;
+  border-right: 16px solid;
+  border-bottom: 16px solid; */
+
+  image-rendering: pixelated;
+  color: rgb(255, 235, 235);
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
   word-break: break-word;
-
 }
-.projects-detail>h3{
-    padding: 0px;
-    font-size: 32px;
+.projects-detail > h3 {
+  padding: 0px;
+  font-size: 36px;
+  color: #f2b7d3;
 }
-
-.projects-link{
-    color:#8cf3c4;
-    margin: auto;
-    text-align: center;
-    border: solid 1px red;
+.projects-detail > p {
+  text-align: left;
 }
 
-.about{
-    margin: 0px;
-    padding: 20px;
-    background-color: #8cf3c4;
-    min-height: 100vh;
+.projects-detail > h5 {
+  padding: 0px;
+}
+
+.tech {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15%;
+  font-size: 16px;
+  flex-direction: row;
+  width: 100%;
+
+  &:hover {
+    background-color: rgb(255, 235, 235);
     color: black;
+    font-size: 20px;
+    transition: all ease-in-out 0.5s
+  }
+}
 
-    flex-direction: row;
-    font-size: calc(10px + 2vmin);
+.projects-link {
+  color: #8cf3c4;
+  margin: auto;
+  text-align: center;
+  border: solid 1px red;
+}
+
+.about {
+  margin: 0px;
+  padding: 20px;
+  /* background-color: #8cf3c4; */
+  background-color: #a98ce3;
+  min-height: 100vh;
+  color: black;
+
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
 }
