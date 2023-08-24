@@ -1,11 +1,17 @@
+import EmailContactForm from "../EmailContactForm/EmailContactForm"
 export default function Contact(){
     return(
-        <div>
-            <h1>Contact </h1>
-            <h3>Got a problem to solve?</h3>
+        <div class="row">
+        <div class="col m8 s12 offset-m2">
+        <div className="contact">
+            <h1>Got a problem to solve? </h1>
+            <h3>Contact me!</h3>
+            
             <p>
-                form goes here
+               <EmailContactForm/>
             </p>
+        </div>
+        </div>
         </div>
     )
 }
