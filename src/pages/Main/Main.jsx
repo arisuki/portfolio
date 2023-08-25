@@ -8,11 +8,6 @@ import {useRef} from "react"
 
 export default function Main() {
 
-  // window.scrollTo({
-  //   top: elementRef.current.offsetTop, 
-  //   behavior: "smooth",
-
-  // })
 
   return (
     <>

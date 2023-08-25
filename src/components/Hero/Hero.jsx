@@ -1,3 +1,5 @@
+import {Link} from "react-scroll"
+
 export default function Hero() {
   return (
     <div className="hero">
@@ -17,7 +19,9 @@ export default function Hero() {
         
       </p>
       <a className="ghost-button">
-    view works
+      <Link to="contact" href="#contact"
+        >Projects
+        </Link>
       </a>
       </div>
       </div>
