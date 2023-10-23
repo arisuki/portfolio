@@ -20,7 +20,7 @@ export default function Hero() {
       </p>
       <a className="ghost-button">
       <Link to="contact" href="#contact"
-        >Projects
+        >Let's talk!
         </Link>
       </a>
       </div>
